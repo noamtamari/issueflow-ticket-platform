@@ -1,12 +1,12 @@
 # IssueFlow — Claude Code Instructions
 
 ## Project
-Backend API for IssueFlow, a ticket management platform. Built with **NestJS 11 + TypeScript 5 + PostgreSQL + TypeORM**.
-Assignment: AT&T TDP 2026. Model used: **claude-sonnet-4-6**.
+Backend API for IssueFlow, a ticket management platform. Built with **NestJS 10 + TypeScript 5 + PostgreSQL + TypeORM**.
+Assignment: AT&T TDP 2026. Primary model: **claude-opus-4-7** (secondary: `claude-sonnet-4-6`). See `prompts.md` for the per-session breakdown.
 
 ## Tech Stack
 - Runtime: Node.js 20+
-- Framework: NestJS 11
+- Framework: NestJS 10
 - Language: TypeScript 5
 - ORM: TypeORM 0.3
 - DB: PostgreSQL 15 (via Docker compose.yml)

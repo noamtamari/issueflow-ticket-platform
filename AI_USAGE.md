@@ -1,7 +1,8 @@
 # AI Usage Summary
 
-**Model:** claude-sonnet-4-6  
-**Tool:** Claude Code CLI (Anthropic)
+**Primary model:** `claude-opus-4-7` — used for requirements review, architecture and planning, coverage audits, and the final implementation/review passes in this submission.
+**Secondary model:** `claude-sonnet-4-6` — used through Claude Code CLI in earlier sessions for implementation and refactoring passes.
+**Tool:** Claude Code CLI (Anthropic). See `prompts.md` for the per-session prompt log and which model handled which task.
 
 ## How AI Was Used
 

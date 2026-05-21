@@ -5,7 +5,7 @@
 **Additional AI tool:** GitHub Copilot CLI  
 **Additional model used:** `GPT-5.2 Codex`  
 **Project:** IssueFlow — Ticket Management Backend Platform  
-**Implementation stack:** TypeScript 5.x, NestJS 11, PostgreSQL 15, TypeORM 0.3, Node.js 20+
+**Implementation stack:** TypeScript 5.x, NestJS 10, PostgreSQL 15, TypeORM 0.3, Node.js 20+
 **Development mode:** AI-assisted, human-reviewed implementation
 
 This file documents the main prompts and prompt-engineering workflow used while developing IssueFlow.  
@@ -58,7 +58,7 @@ Before writing code:
 4. Wait for approval before large changes.
 
 Engineering rules:
-- Use TypeScript 5.x and NestJS 11 conventions.
+- Use TypeScript 5.x and NestJS 10 conventions.
 - Use NestJS Controller -> Service -> Repository/ORM architecture.
 - Keep controllers thin.
 - Put business logic in services.
@@ -246,7 +246,7 @@ Return:
 
 Constraints:
 - Use TypeScript 5.x.
-- Use NestJS 11.
+- Use NestJS 10.
 - Use PostgreSQL.
 - Use the project ORM consistently, such as TypeORM or Prisma depending on the provided skeleton.
 - Keep the model simple enough for a home assignment.
@@ -1035,7 +1035,7 @@ Return:
 **Goal:** Get focused help when a test/build/runtime error appears.
 
 ```text
-I am working on a TypeScript 5.x / NestJS 11 backend called IssueFlow.
+I am working on a TypeScript 5.x / NestJS 10 backend called IssueFlow.
 
 Analyze this error and propose the smallest safe fix.
 
@@ -1065,7 +1065,7 @@ Review the current implementation and identify missing Jest/Supertest tests.
 
 Context:
 - Project: IssueFlow
-- Stack: TypeScript 5.x, NestJS 11, PostgreSQL
+- Stack: TypeScript 5.x, NestJS 10, PostgreSQL
 - Testing target: service unit tests + key e2e flows
 
 Do not write tests yet.
